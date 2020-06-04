@@ -1,31 +1,68 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <title>Youtube Clone</title>
-</head>
-<body>
-  <header class="navpart">
-    <nav class="leftmost">
-      <div class="main-navbar">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-        <img src="assets/youtubelogo.png" style= width:50px; height:50px; alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <header class="navpart">
+      <nav class="leftmost">
+        <div class="main-navbar">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          <img
+            src="assets/youtubelogo.png"
+            style="width: 50px;"
+            height:50px;
+            alt=""
+          />
+        </div>
+      </nav>
+      <div class="search-bar">
+        <input type="text" class="search" placeholder="Search" />
+        <button class="search-button">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
       </div>
-    </nav>
-    <div class="search-bar">
-      <input type="text" class="search" placeholder="Search">
-      <button class="search-button"><i class="fa fa-search" aria-hidden="true"></i></button>
+      <nav class="rightmost">
+        <div class="main-navbar">
+          <i class="fa fa-video-camera" aria-hidden="true"></i>
+          <i class="fa fa-tasks" aria-hidden="true"></i>
+          <i class="fa fa-bell" aria-hidden="true"></i>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="main-container">
+      <section class="video">
+        <div class="main-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/YbYWhdLO43Q"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <div class="video-title">
+            <p>This Unicorn Changed the Way I Poop - #SquattyPotty</p>
+            <div class="video-views">
+              <p>38,063,145 views•Oct 6, 2015</p>
+              <div class="share-icon">
+                <i class="fa fa-share"></i>
+              </div>
+              <div class="save-icon">
+                <i class="fas fa-file-export"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    <nav class="rightmost">
-    <div class="main-navbar">
-      <i class="fa fa-video-camera" aria-hidden="true"></i>
-      <i class="fa fa-tasks" aria-hidden="true"></i>
-      <i class="fa fa-bell" aria-hidden="true"></i>
-      <i class="fa fa-envelope" aria-hidden="true"></i>
-    </div>
-    </nav>
-  </header>
-</body>
+    <aside></aside>
+  </body>
 </html>
