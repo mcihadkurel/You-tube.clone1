@@ -22,8 +22,6 @@ body {
   letter-spacing: 12px;
 }
 
-.main-navbar {
-}
 
 .search {
   width: 100px;
@@ -33,4 +31,15 @@ body {
 .search-button {
   width: 50px;
   justify-content: center;
+}
+
+.sidebar {
+  -webkit-flex-direction: column; 
+  flex-direction: column; 
+  float: left;
+}
+.autobutton {
+  -webkit-flex-direction: column; 
+  flex-direction: column; 
+  float: right;
 }
