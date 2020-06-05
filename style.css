@@ -1,4 +1,7 @@
-.header {
-}
-.nav {
-}
+html {
+    font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”
+    }
+
+body {
+    background-color: none
+ }
