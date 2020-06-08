@@ -48,3 +48,23 @@ body {
   flex-direction: column;
   float: right;
 }
+.song-title{
+  color: #030303;
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  margin: 0px 0px 4px;
+  }
+
+.artist-name{
+  font-family: Roboto, Arial;
+  font-size: 13px;
+  color:#606060
+}
+.aside-views {
+  font-family: Roboto, Arial;
+  font-size: 13px;
+  color:#606060
+}
+.video-duration {
+  color: #ffffff
+}
