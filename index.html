@@ -14,8 +14,9 @@
     <title>Youtube Page</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="main-navbar">
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-none">
+      <div class="navbar-left">
         <i class="fa fa-bars" aria-hidden="true"></i>
         <img
           src="assets/YouTube-Logo.svg"
@@ -26,13 +27,13 @@
       </div>
 
       <div class="search-bar">
-        <input type="text" class="search" placeholder="Search" />
-        <button class="search-button">
+        <input type="text" class="input" placeholder="Search" />
+        <button class="search-button" id="searchbutton">
           <i class="fa fa-search" aria-hidden="true"></i>
         </button>
       </div>
 
-      <div class="main-navbar">
+      <div class="navbar-right">
         <i class="fa fa-video-camera" aria-hidden="true"></i>
         <i class="fa fa-tasks" aria-hidden="true"></i>
         <i class="fa fa-bell" aria-hidden="true"></i>
@@ -41,370 +42,360 @@
     </nav>
     <div class="d-flex space-between">
       <div class="main-fc d-flex flex-column">
-        <div class="main-video">
-          <iframe
-            width="746"
-            height="420"
-            src="https://www.youtube.com/embed/YbYWhdLO43Q"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <div class="embed-video-title">
-            <div class="video-title">
-              <p>
-                This Unicorn Changed the Way I Poop -
-                <a
-                  href="https://www.youtube.com/results?search_query=%23SquattyPotty"
-                  >#SquattyPotty</a
-                >
-              </p>
-            </div>
-            <div class="video-views">
-              <p>38,063,145 views•Oct 6 2015</p>
-            </div>
-            <div class="clicks">
-              <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-              <p>115B</p>
-              <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-              <p>5,8B</p>
-              <i class="fa fa-share"></i>
-              <p>SHARE</p>
-              <i class="fa fa-save" aria-hidden="true"></i>
-              <p>SAVE</p>
-              <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+        <div class="container">
+          <div class="main-video">
+            <iframe
+              width="850"
+              height="480"
+              src="https://www.youtube.com/embed/YbYWhdLO43Q"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="embed-video-title">
+              <div class="video-title">
+                <p>
+                  This Unicorn Changed the Way I Poop -
+                  <a
+                    href="https://www.youtube.com/results?search_query=%23SquattyPotty"
+                    >#SquattyPotty</a
+                  >
+                </p>
+              </div>
+              <div class="flex">
+                <p>38,063,145 views•Oct 6 2015</p>
+                <div class="flex">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <p>115B</p>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>5,8B</p>
+                  <i class="fa fa-share"></i>
+                  <p>SHARE</p>
+                  <i class="fa fa-save" aria-hidden="true"></i>
+                  <p>SAVE</p>
+                  <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </div>
+              </div>
             </div>
           </div>
+          
+          <article class="video-summary">
+            <div class="page-profile">
+              <div class="user-description">
+                <img
+                  src="assets/user-profile.jpg"
+                  alt="Page Profile"
+                  width="40"
+                  height="40"
+                />
+                <div class="page-name">
+                  <p>SquattyPotty</p>
+                  <p>
+                    Buy at http://squattypotty.com - Pooping will never be the
+                    same. This Unicorn shows the effects of improper toilet
+                    posture and how it can affect your health. The Squatty Potty
+                    toilet stool has been featured on Shark Tank and Dr OZ show
+                    and has thousands of happy customers.
+                  </p>
+                </div>
+                <div class="user-subscribers">
+                  <p>45,5K Subscribers</p>
+                </div>
+              </div>
+              <div class="subscribe-button">
+                <button>SUBSCRIBE</button>
+              </div>
+            </div>
+          </article>
+          <article class="video-comments">
+            <section>
+              <div class="comment-section">
+                <p>7777 Comments</p>
+              </div>
+              <div class="sort-button">
+                <p>LİST</p>
+                <i class="fa fa-sort-amount-down"></i>
+              </div>
+            </section>
+            <div class="total-comments">
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-1.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Dwayne Knight
+                  </p>
+                  <p class="timestamp">
+                    4 years ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    I just want this actor to go on to do big things so we can
+                    always remember he did this.
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 40 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user">
+                  <img
+                    src="assets/user-avatar-2.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Nybble
+                  </p>
+                  <p class="timestamp">
+                    1 year ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    This, this is how advertising should be done...
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 13 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-3.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Justin Hubbard
+                  </p>
+                  <p class="timestamp">
+                    4 months ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    who still here 2020 watching this for some good laughs
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 20 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-4.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Simboiss
+                  </p>
+                  <p class="timestamp">
+                    8 months ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    This video is simultaneously : - Ridiculous - Funny -
+                    Scientifically accurate I am deeply satisfied.
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 4 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-5.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Turtle-Dove Hall
+                  </p>
+                  <p class="timestamp">
+                    9 months ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    Thank you, I've been having a horrid time getting my child to
+                    have a bowel movement. 
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 6 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-6.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Kim Jong 005
+                  </p>
+                  <p class="timestamp">
+                    1 year ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    If American commercials switched places with Japanese
+                    commercials
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 11 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-7.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Hana Kleine
+                  </p>
+                  <p class="timestamp">
+                    1 year ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    The unicorns voice tho......
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View reply</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-8.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    Max Poole
+                  </p>
+                  <p class="timestamp">
+                    8 months ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    I bought one and confirm this advert is 100% accurate apart
+                    from the colour and flavour.
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View 8 replies</a>
+                </div>
+              </div>
+              <div class="user-comments">
+                <div class="user-avatar">
+                  <img
+                    src="assets/user-avatar-9.jpg"
+                    alt="User Profile"
+                    width="40"
+                    height="40"
+                  />
+                </div>
+                <div class="user-name">
+                  <p class="user-name-bolded">
+                    toma_no
+                  </p>
+                  <p class="timestamp">
+                    1 year ago
+                  </p>
+                </div>
+                <div class="comment-description">
+                  <p>
+                    Still one of the very few commercials that made me buy a
+                    product I didn't already know I needed. And definitely the
+                    only one that actually made a difference in my life!
+                  </p>
+                </div>
+                <div class="comment-react">
+                  <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                  <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  <p>REPLY</p>
+                  <a href="#">View reply</a>
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
 
-        <article class="video-summary">
-          <div class="page-profile">
-            <div class="user-description">
-              <img
-                src="assets/user-profile.jpg"
-                alt="Page Profile"
-                width="40"
-                height="40"
-              />
-              <div class="page-name">
-                <p>SquattyPotty</p>
-                <p>
-                  Buy at http://squattypotty.com - Pooping will never be the
-                  same. This Unicorn shows the effects of improper toilet
-                  posture and how it can affect your health. The Squatty Potty
-                  toilet stool has been featured on Shark Tank and Dr OZ show
-                  and has thousands of happy customers.
-                </p>
-              </div>
-              <div class="user-subscribers">
-                <p>45,5K Subscribers</p>
-              </div>
-            </div>
-            <div class="subscribe-button">
-              <button>SUBSCRIBE</button>
-            </div>
-          </div>
-        </article>
 
-        <article class="video-comments">
-          <section>
-            <div class="comment-section">
-              <p>7777 Comments</p>
-            </div>
-            <div class="sort-button">
-              <p>LİST</p>
-              <i class="fa fa-sort-amount-down" aria-hidden="true"></i>
-            </div>
-          </section>
-          <div class="total-comments">
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-1.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  Dwayne Knight
-                </p>
-                <p class="timestamp">
-                  4 years ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  I just want this actor to go on to do big things so we can
-                  always remember he did this.
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View 40 replies</a>
-              </div>
-            </div>
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-2.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  Nybble
-                </p>
-                <p class="timestamp">
-                  1 year ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  This, this is how advertising should be done...
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View 13 replies</a>
-              </div>
-            </div>
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-3.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  Justin Hubbard
-                </p>
-                <p class="timestamp">
-                  4 months ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  who still here 2020 watching this for some good laughs
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View 20 replies</a>
-              </div>
-            </div>
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-4.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  Simboiss
-                </p>
-                <p class="timestamp">
-                  8 months ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  This video is simultaneously : - Ridiculous - Funny -
-                  Scientifically accurate I am deeply satisfied.
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View 4 replies</a>
-              </div>
-            </div>
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-5.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  Turtle-Dove Hall
-                </p>
-                <p class="timestamp">
-                  9 months ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  Thank you, I've been having a horrid time getting my child to
-                  have a bowel movement. She held it in for too long and then it
-                  hurt her so she refused to poop at all until her body would
-                  force it, which hurt, starting the cycle over again. I kept
-                  trying to explain why she needed to poop and how to sit so it
-                  wouldn't hurt as much but couldn't find anything for visuals,
-                  just me telling facts. But then I remembered this ad and how
-                  it shows the muscles relaxing and it frickin worked!!! She
-                  thought the unicorn was hilarious and she copied it and
-                  finally had a bowel movement without crying, she actually
-                  laughed instead and said she'd go poop again tomorrow if she
-                  could watch the unicorn again while doing it. I know it might
-                  not seem like a big thing to some people but your child being
-                  in pain going to the washroom is so agonizing. So thank you
-                  for your informative, funny video that has helped so much.
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View 6 replies</a>
-              </div>
-            </div>
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-6.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  Kim Jong 005
-                </p>
-                <p class="timestamp">
-                  1 year ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  If American commercials switched places with Japanese
-                  commercials
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View 11 replies</a>
-              </div>
-            </div>
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-7.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  Hana Kleine
-                </p>
-                <p class="timestamp">
-                  1 year ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  The unicorns voice tho......
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View reply</a>
-              </div>
-            </div>
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-8.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  Max Poole
-                </p>
-                <p class="timestamp">
-                  8 months ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  I bought one and confirm this advert is 100% accurate apart
-                  from the colour and flavour.
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View 8 replies</a>
-              </div>
-            </div>
-            <div class="user-comments">
-              <div class="user-avatar">
-                <img
-                  src="assets/user-avatar-9.jpg"
-                  alt="User Profile"
-                  width="40"
-                  height="40"
-                />
-              </div>
-              <div class="user-name">
-                <p class="user-name-bolded">
-                  toma_no
-                </p>
-                <p class="timestamp">
-                  1 year ago
-                </p>
-              </div>
-              <div class="comment-description">
-                <p>
-                  Still one of the very few commercials that made me buy a
-                  product I didn't already know I needed. And definitely the
-                  only one that actually made a difference in my life!
-                </p>
-              </div>
-              <div class="comment-react">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <p>REPLY</p>
-                <a href="#">View reply</a>
-              </div>
-            </div>
-          </div>
-        </article>
       </div>
       <div class="other-videos d-flex flex-column">
         <aside class="sidebar">
           <div class="upcoming">
-            <p>Up next</p>
+            <p id="upnext">Up next</p>
             <div class="autobutton">
               <p>Auto Play</p>
               <button id="autobutton">
