@@ -32,8 +32,20 @@ html {
 .other-videos {
   width: 30%;
 }
-
-
+.autobutton{
+  float:right;
+  position:relative;
+  bottom:35px;
+}
+#autobutton{
+  position: relative;
+  bottom:15px;
+  left: 14px
+}
+.sidebar{
+  position:relative;
+  right: 50px;
+}
 .image {
   float: left;
   height: 10px;
@@ -72,6 +84,8 @@ html {
 .video-duration{
   position:relative;
   float:right;
+  bottom: 20px;
+  right: 14px;
   font-size:12px;
   background-color: black;
   color:whitesmoke;
