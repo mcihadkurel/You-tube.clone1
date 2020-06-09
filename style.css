@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap");
 
-
+nav {
+  width: 100%;
+}
 
 .video {
   margin-left: initial;
@@ -24,7 +26,6 @@ html {
   font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
 }
 
-
 .main-fc {
   width: 60%;
 }
@@ -32,29 +33,29 @@ html {
 .other-videos {
   width: 30%;
 }
-.autobutton{
-  float:right;
-  position:relative;
-  bottom:35px;
-}
-#autobutton{
+.autobutton {
+  float: right;
   position: relative;
-  bottom:15px;
-  left: 14px
+  bottom: 35px;
 }
-.sidebar{
-  position:relative;
+#autobutton {
+  position: relative;
+  bottom: 15px;
+  left: 14px;
+}
+.sidebar {
+  position: relative;
   right: 50px;
 }
 .image {
   float: left;
   height: 10px;
-  position:relative;
+  position: relative;
 }
 .aside-video {
   grid-template-columns: 180px 180px;
-    display: grid;
-    margin-bottom: 4px;
+  display: grid;
+  margin-bottom: 4px;
 }
 /* .aside-description {
   font-family: Roboto;
@@ -64,29 +65,29 @@ html {
 .song-title {
   font-family: Roboto;
   line-height: 1.2em;
-  font-size:14px;
-  color:#030303;
+  font-size: 14px;
+  color: #030303;
   display: inline-block;
 }
 
-.artist-name{
+.artist-name {
   font-family: Roboto;
   line-height: 1.2em;
-  font-size:13px;
-  color:#606060
+  font-size: 13px;
+  color: #606060;
 }
 .aside-views {
   font-family: Roboto;
   line-height: 1.2em;
-  font-size:13px;
-  color:#606060
+  font-size: 13px;
+  color: #606060;
 }
-.video-duration{
-  position:relative;
-  float:right;
+.video-duration {
+  position: relative;
+  float: right;
   bottom: 20px;
   right: 14px;
-  font-size:12px;
+  font-size: 12px;
   background-color: black;
-  color:whitesmoke;
+  color: whitesmoke;
 }
