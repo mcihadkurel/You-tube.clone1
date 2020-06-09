@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap");
 
+
+
 .video {
   margin-left: initial;
   padding-left: 100px;
@@ -24,19 +26,28 @@ html {
   font-family: Roboto, Arial, “Sans Serif”, Noto, “YT Sans”, “Roboto Mono”;
 }
 
-.main-navbar {
-}
-/* .search {
-  width: 500px;
-  display:inline-block;
-  float: right;
-  margin-left:200px;
-} */
+.navbar {
 
+}
+.navbar-right {
+
+}
+.fa {
+  
+}
+.navbar-left {
+
+}
 .main-fc {
   width: 60%;
 }
 
 .other-videos {
   width: 30%;
+}
+.image {
+  width: 50%;
+}
+.aside-description {
+  width: 70%;
 }
